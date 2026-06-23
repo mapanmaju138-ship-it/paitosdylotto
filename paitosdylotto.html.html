@@ -1,0 +1,193 @@
+<div align="center">
+<div class="lassres">
+<div class="colormenu" id="colormenu"><button id="btnSubmit">Clear</button><fieldset id="color-selector"><div class="color" style="background:#ff5050;" data-color="#ff5050"></div><div class="color" style="background:#ff99cc;" data-color="#ff99cc"></div><div class="color" style="background:#a9d08e;" data-color="#a9d08e"></div><div class="color" style="background:#9966ff;" data-color="#9966ff"></div><div class="color" style="background:#66ffcc;" data-color="#66ffcc"></div><div class="color" style="background:#9bc2e6;" data-color="#9bc2e6"></div><div class="color" style="background:#b2b2b2;" data-color="#b2b2b2"></div><div class="color" style="background:#f4b084;" data-color="#f4b084"></div><div class="color eraser" data-color="eraser"></div></fieldset></div>  
+
+<style>
+   
+.colormenu {
+    background: none 0 0 repeat scroll #d9d9d9;
+    border: 2px solid #d9d9d9;
+    width: 796px;
+    height: 30px;
+    center: unset;
+    z-index: 99999;
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.colormenu.fixed {
+    position: fixed;
+    height: 30px;
+    center: unset;
+    width: 796px;
+    top: 0;
+    left: 0;
+}
+
+.intro td {
+    background: none repeat scroll 0 0 #ffffff !important;
+}
+
+table {
+    background: #fff none repeat scroll 0 0;
+    margin: 1px;
+    min-width: 500px;
+}
+
+#drawing-table thead td {
+    background: #dd9933 !important;
+    width: 100%;
+    background: #0000f4 !important;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#drawing-table td {
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 0 3px 0;
+}
+
+#color-selector .color {
+    float: left;
+    height: 25px;
+    position: relative;
+    width: 11%;
+    cursor: pointer;
+}
+
+#color-selector .color.eraser {
+    background: none repeat scroll 0 0 #fff;
+}
+
+#color-selector .color.Blue {
+    background: #43a2ff;
+}
+
+#color-selector .color.Aqua {
+    background: #00f5ff;
+}
+
+#color-selector .color.Teal {
+    background: #43cd80;
+}
+
+#color-selector .color.Lime {
+    background: #01ff70;
+}
+
+#color-selector .color.Yellow {
+    background: #ffdc00;
+}
+
+#color-selector .color.Orange {
+    background: #ff851b;
+}
+
+#color-selector .color.Red {
+    background: #ff4136;
+}
+
+#color-selector .color.Pink {
+    background: #f012be;
+}
+
+#color-selector .color.Purple {
+    background: #a23bec;
+}
+
+#color-selector .color.Silver {
+    background: #a9a9a9;
+}
+
+#color-selector .selected {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+#btnSubmit {
+    float: left;
+    margin-top: 0;
+    font-size: 9px;
+    background: #333;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    width: 10%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#table-wrap {
+    font-weight: 700;
+    position: relative;
+}
+
+#table-wrap table {
+    position: relative;
+    z-index: 10;
+}
+
+#toggle-tracing-mode {
+    display: none;
+}
+
+#html-wrap textarea {
+    height: 50px;
+    margin: 0 0 10px;
+    overflow: auto;
+    width: 100%;
+}
+
+#btnSubmit {
+    float: left;
+    margin-top: 0;
+}
+
+@media (max-width: 767px) {
+    #drawing-table {
+        min-width: 100%;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+}
+
+@media (max-width: 370px) {
+    #drawing-table td {
+        font-size: 10px;
+    }
+}
+
+</style>
+<div class="table" align="center" title="Paito SGP">
+<?php
+// URL TARGET
+$url = 'https://pafimalinauselatan.org/';
+//end
+// get / mengambil content berdasarkan url yang akan di curi datanya
+$content = file_get_contents($url);
+//
+// STEP 1 mengambil syntax pembuka
+$first_step = explode( '<div class="table" align="center" title="Paito SDY">' , $content );
+//
+// STEP 2 mengambil syntax penutup
+$second_step = explode("</table>" , $first_step[1] );
+//
+// Replace syntax </tbody> dengan </tbody></table>
+$text1 = $second_step[0];
+//Tampilkan 
+echo $text1;
+?>
+</table>
+
+<div align="center">
+<form id="myForm"><input maxlength="1" placeholder="as" class="cari" type="text" id="asc">
+<input maxlength="1" placeholder="kop" class="cari" type="text" id="kopc"> <input maxlength="1" placeholder="kep" class="cari" type="text" id="kepalac"> <input maxlength="1" placeholder="ekr" class="cari" type="text" id="ekorc"> <input id="rb" type="button" value="" onclick="myFunction()">
+</form>
+</div>
